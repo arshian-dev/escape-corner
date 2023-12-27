@@ -23,7 +23,7 @@ function changeBackground() {
 
 function checkPassword() {
   const enteredPassword = document.getElementById("passwordInput").value;
-  const correctPassword = "your_secret_password"; // Replace with the actual password
+  const correctPassword = "fizaorakzai"; // Replace with the actual password
 
   if (enteredPassword === correctPassword) {
     unblurSite();
