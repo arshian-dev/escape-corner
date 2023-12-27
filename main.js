@@ -8,7 +8,7 @@ function unblurSite() {
 
 // Function to greet the user
 function greetUser() {
-  alert("Welcome to Fiza's Escape Corner!");
+  alert("Welcome to Fiza's Escape Corner! If you're Fiza then you're the developer's favorite thing in the world, this space is for you. Have fun! And if not Fiza, leave immediately!");
 }
 
 // Function to toggle a dropdown menu
