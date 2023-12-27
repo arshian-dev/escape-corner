@@ -6,6 +6,21 @@ body {
   filter: blur(4px); /* Apply default blur effect */
 }
 
+/* ... other styles ... */
+
+#passwordInput {
+  filter: blur(0); /* Remove blur from the password input field */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Add padding for better readability */
+  margin-bottom: 10px; /* Add space below the input field */
+  font-size: 16px; /* Ensure comfortable text size */
+  /* Additional styling options: */
+  background-color: #f5f5f5; /* Optional light gray background */
+  color: #444; /* Optional darker text color */
+}
+
+
 h1, h2, h3 {
   font-family: 'Dancing Script', cursive;
   color: #7e54a0; /* Purple for headings */
