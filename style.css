@@ -3,7 +3,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #f5f5f5;
   text-align: center;
-  filter: blur(4px);
 }
 
 h1, h2, h3 {
@@ -11,12 +10,18 @@ h1, h2, h3 {
   color: #7e54a0;
   font-size: 2em;
   margin-bottom: 20px;
+  filter: blur(4px);
+}
+
+p {
+  filter: blur(4px);
 }
 
 a {
   color: #f0f0f0;
   text-decoration: none;
 }
+
 a:hover {
   color: #f98ea1;
 }
