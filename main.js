@@ -2,6 +2,10 @@
 function unblurSite() {
   document.body.style.filter = "blur(0)";
   document.querySelectorAll("section").forEach(section => {
+    p.style.filter = "blur(0)";
+    h3.style.filter = "blur(0)";
+    h2.style.filter = "blur(0)";
+    h1.style.filter = "blur(0)";
     section.style.filter = "blur(0)";
   });
 }
