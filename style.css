@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: Courier, monospace;
+  text-align: center;
+  color: #fff; /* Ensure text is white for readability */
+}
+
+/* Suggestions for visual enhancements: */
+
+/* Headers */
+h1, h2, h3 {
+  font-size: 2em; /* Adjust as needed */
+  margin-bottom: 20px; /* Add spacing between headings and content */
+}
+
+/* Links */
+a {
+  color: #f0f0f0; /* Lighter color for links */
+  text-decoration: none; /* Remove underline */
+}
+a:hover {
+  color: #ccc; /* Highlight on hover */
+}
+
+/* Sections */
+section {
+  padding: 30px;
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional subtle shadow */
+}
+
+/* Images */
+img {
+  border-radius: 50%; /* Optional circular images */
+  width: 200px; /* Adjust as needed */
+  margin: 10px auto; /* Center images */
+}
+
+/* Footer */
+footer {
+  background-color: #222; /* Slightly lighter background for footer */
+  padding: 15px;
+  text-align: center;
+}
