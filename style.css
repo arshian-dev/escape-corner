@@ -1,79 +1,75 @@
 body {
-  background-color: black; /* Black background */
+  background-color: black;
   font-family: 'Open Sans', sans-serif;
-  color: #f5f5f5; /* Off-white text for readability */
+  color: #f5f5f5;
   text-align: center;
-  filter: blur(4px); /* Apply default blur effect */
+  filter: blur(4px);
 }
-
-/* ... other styles ... */
-
-#passwordInput {
-  filter: blur(0); /* Remove blur from the password input field */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  padding: 10px; /* Add padding for better readability */
-  margin-bottom: 10px; /* Add space below the input field */
-  font-size: 16px; /* Ensure comfortable text size */
-  /* Additional styling options: */
-  background-color: #f5f5f5; /* Optional light gray background */
-  color: #444; /* Optional darker text color */
-}
-
 
 h1, h2, h3 {
   font-family: 'Dancing Script', cursive;
-  color: #7e54a0; /* Purple for headings */
+  color: #7e54a0;
   font-size: 2em;
   margin-bottom: 20px;
 }
 
 a {
-  color: #f0f0f0; /* Lighter gray for links */
+  color: #f0f0f0;
   text-decoration: none;
 }
 a:hover {
-  color: #f98ea1; /* Coral highlight on hover */
+  color: #f98ea1;
 }
 
 section {
   padding: 30px;
   border-radius: 10px;
-  background-color: black; /* Black background for sections */
+  background-color: black;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  filter: blur(4px); /* Maintain blur for sections */
+  filter: blur(4px);
 }
 
 img {
   border-radius: 50%;
   width: 200px;
   margin: 10px auto;
-  filter: blur(0); /* Remove blur for images */
+  filter: blur(0);
 }
 
 footer {
   background-color: #222;
   padding: 15px;
   text-align: center;
-  filter: blur(0); /* Remove blur for footer */
+  filter: blur(0);
 }
 
 nav {
   padding: 15px;
-  filter: blur(0); /* Remove blur for navigation bar */
+  filter: blur(0);
 }
 
 button {
-  background-color: #ea5e90; /* Vibrant pink background for buttons */
-  color: #f5f5f0; /* Off-white text for buttons */
+  background-color: #ea5e90;
+  color: #f5f5f5;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+  transition: all 0.2s ease-in-out;
 }
 button:hover {
-  background-color: #ff7f50; /* Coral color on hover */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Light shadow on hover */
+  background-color: #ff7f50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#passwordInput {
+  filter: blur(0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #f5f5f5; /* Optional */
+  color: #444; /* Optional */
 }
