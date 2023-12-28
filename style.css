@@ -5,6 +5,33 @@ body {
   color: #fff; /* Light gray text */
 }
 
+.left-navbar {
+  position: fixed; /* Fixed position to stay in place on scroll */
+  top: 0;
+  left: 0;
+  height: 100vh; /* Full viewport height */
+  width: 100px; /* Adjust width as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Change background color as desired */
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.left-navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+.left navbar li a:hover {
+  background-color: #5544cc; /* Darker purple on hover */
+}
+
 .lofi-background {
   position: absolute;
   top: 0;
@@ -63,11 +90,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   text-align: center;
-}
-
-nav {
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 button {
