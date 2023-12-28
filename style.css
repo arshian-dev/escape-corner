@@ -1,66 +1,76 @@
 body {
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
-  color: #f5f5f5;
-  text-align: center;
+  background-color: #f0f8ff; /* Soft pastel blue */
+  font-family: "Source Sans Pro", sans-serif; /* Rounded font */
+  color: #444; /* Soft gray text */
+  overflow: hidden; /* Hide potential scrollbars */
+}
+
+.lofi-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/lofi-background.gif"); /* Animated rain gif */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Subtle animation layer */
 }
 
 h1, h2, h3 {
-  font-family: 'Dancing Script', cursive;
-  color: #7e54a0;
+  font-family: 'Dancing Script', cursive; /* Keep the cursive headings */
+  color: #333; /* Darker gray for headings */
   font-size: 2em;
   margin-bottom: 20px;
 }
 
 a {
-  color: #f0f0f0;
+  color: #444; /* Lighter gray links */
   text-decoration: none;
 }
 
 a:hover {
-  color: #f98ea1;
+  color: #7e54a0; /* Accent color on hover */
 }
 
 section {
   padding: 30px;
-  border-radius: 10px;
-  background-color: black;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  filter: blur(4px);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for sections */
 }
 
 img {
   border-radius: 50%;
   width: 200px;
   margin: 10px auto;
-  filter: blur(0);
 }
 
 footer {
-  background-color: #222;
+  background-color: #f0f8ff; /* Match body background */
   padding: 15px;
   text-align: center;
-  filter: blur(0);
 }
 
 nav {
   padding: 15px;
-  filter: blur(0);
+  background-color: #f0f8ff; /* Match body background */
 }
 
 button {
-  background-color: #ea5e90;
-  color: #f5f5f5;
+  background-color: #e0e0e0; /* Light gray background */
+  color: #444;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
+  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
 button:hover {
-  background-color: #ff7f50;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ddd; /* Slightly darker on hover */
 }
 
 ul {
@@ -68,13 +78,8 @@ ul {
 }
 
 #passwordInput {
-  filter: blur(0);
-  border: none;
-  border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
-  background-color: #f5f5f5; /* Optional */
-  color: #444; /* Optional */
+  border-radius: 5px;
 }
-
