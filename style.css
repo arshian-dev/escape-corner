@@ -1,8 +1,6 @@
 body {
-  background-color: #222; /* Deep navy blue background */
   font-family: "Source Sans Pro", sans-serif; /* Rounded font */
-  color: #ddd; /* Light gray text */
-  overflow: hidden; /* Hide potential scrollbars */
+  color: #0d0d0d; /* Light gray text */
 }
 
 .lofi-background {
