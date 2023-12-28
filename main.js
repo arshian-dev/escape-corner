@@ -7,24 +7,12 @@ function photoIndex(min, max) {
 return Math.floor(randomDecimal);
 }
 
-// Example usage:
-const randomNumber = getRandomNumberInRange(0, 5);
-console.log(randomNumber); // Output: A random number from 0 to 5
-
-
 const backgroundPhotos = [
   "room-bg.jpg",
   "music-bg.jpg",
   "black.png",
 ];
 
-//Function to unblur the site
-function unblurSite() {
-  document.body.style.filter = "blur(0)";
-  document.querySelectorAll("section").forEach(section => {
-    section.style.filter = "blur(0)";
-  });
-}
 
 // Function to greet the user
 function greetUser() {
