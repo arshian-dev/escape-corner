@@ -12,13 +12,11 @@ body {
   background-image: url("room-bg.jpg"); /* Replace with desired background */
   background-size: cover;
   background-position: center;
-  opacity: 0.7; /* Subtle animation layer */
 }
 
 .study-page .lofi-background {
   /* Different background image or styles for the study page */
   background-image: url("study-background.jpg");
-  opacity: 0.7;
   /* Adjust other styles as needed for the study page background */
 }
 
@@ -48,15 +46,13 @@ a:hover {
 
 .box {
   padding: 30px;
-  background: url("https://www.tutorialspoint.com/images/dbms_icon.svg") repeat;
-  border: 2px solid black;
+  background-image: url("black.png") repeat;
+  opacity: 0.1;
 }
 
-.boxtext {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
+.boxtext p {
+  color: #ffffff;
+  opacity: 1;
 }
 
 img {
