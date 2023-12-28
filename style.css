@@ -31,7 +31,7 @@ body {
   border-radius: 5px; /* Add rounded corners */
   display: inline-block; /* Ensure button-like behavior */
   cursor: pointer; /* Indicate interactivity */
-  font-size: 40%;
+  font-size: 100%;
   font-weight: bold;
 }
 
