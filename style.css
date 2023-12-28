@@ -41,12 +41,12 @@ body {
 
 
 .lofi-background {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("room-bg.jpg"); /* Replace with desired background */
+  background-image: url("room-bg.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
