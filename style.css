@@ -11,7 +11,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("images/city-lights.gif"); /* Replace with desired background */
+  background-image: url("room-bg.jpg"); /* Replace with desired background */
   background-size: cover;
   background-position: center;
   opacity: 0.15; /* Subtle animation layer */
