@@ -1,20 +1,3 @@
-function photoIndex(min, max) {
-  // Ensure min is less than or equal to max:
-  if (min > max) {
-    [min, max] = [max, min]; // Swap values if needed
-  }
-  const randomDecimal = Math.random() * (max - min) + min;
-return Math.floor(randomDecimal);
-}
-
-const backgroundPhotos = [
-  "room-bg.jpg",
-  "music-bg.jpg",
-  "black.png",
-];
-
-
-// Function to greet the user
 function greetUser() {
   alert("Welcome to Fiza's Escape Corner! If you're Fiza then you're the developer's favorite thing in the world, this space is for you. Have fun! And if not Fiza, leave immediately!");
 }
@@ -24,10 +7,14 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function changeBackground(photoIndex(0, 2)) {
-  const chosenPhoto = backgroundPhotos[photoIndex];
+function changeBackground() {
   const bg = document.querySelector(".lofi-background");
-  bg.style.backgroundImage = `url(${chosenPhoto})`;
+  if (flag) {
+    bg.style.backgroundImage = "url(room-bg.jpg)"; // Use url() for paths
+  } else {
+    bg.style.backgroundImage = "url(study-bg.jpg)";
+  }
+  flag = !flag; // Toggle the flag
 }
 
 function checkPassword() {
