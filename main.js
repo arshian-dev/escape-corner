@@ -26,7 +26,7 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-const flag = true
+flag = true
 function changeBackground() {
   const bg = document.querySelector(".lofi-background");
   if (flag) {
