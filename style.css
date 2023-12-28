@@ -32,10 +32,27 @@ body {
   cursor: pointer; /* Indicate interactivity */
 }
 
-.left-navbar li a:hover,
-.left-navbar li a:active {
+.left-navbar li a:hover {
   background-color: #5544cc; /* Darker purple on hover */
 }
+
+.left-navbar li button {
+  background-color: #444; /* Dark gray button background */
+  color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.left-navbar li button:hover {
+  background-color: #5544cc; /* Darker purple on hover */
+}
+
+
 
 .lofi-background {
   position: absolute;
@@ -95,22 +112,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   text-align: center;
-}
-
-button {
-  background-color: #444; /* Dark gray button background */
-  color: #ddd;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-button:hover {
-  background-color: #5544cc; /* Darker purple on hover */
 }
 
 ul {
