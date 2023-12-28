@@ -50,12 +50,19 @@ a:hover {
 .box {
   padding: 30px;
   background-image: url("black.png") repeat;
-  opacity: 0.1;
+  opacity: 0.3;
+  position: relative;
+  z-index: 0
+  width: 200px;
+  height: 100px;
 }
 
-.boxtext p {
-  color: #ffffff;
-  opacity: 1;
+.boxtext {
+  padding: 30px;
+  position: relative;
+  z-index: 1
+  width: 200px;
+  height: 100px;
 }
 
 img {
