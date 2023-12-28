@@ -12,12 +12,15 @@ body {
   background-image: url("room-bg.jpg"); /* Replace with desired background */
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 .study-page .lofi-background {
-  /* Different background image or styles for the study page */
   background-image: url("study-background.jpg");
-  /* Adjust other styles as needed for the study page background */
+}
+
+.music-page .lofi-background {
+  background-image: url("music-background.jpg");
 }
 
 h1, h2 {
