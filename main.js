@@ -1,3 +1,23 @@
+function photoIndex(min, max) {
+  // Ensure min is less than or equal to max:
+  if (min > max) {
+    [min, max] = [max, min]; // Swap values if needed
+  }
+  const randomDecimal = Math.random() * (max - min) + min;
+return Math.floor(randomDecimal);
+}
+
+// Example usage:
+const randomNumber = getRandomNumberInRange(0, 5);
+console.log(randomNumber); // Output: A random number from 0 to 5
+
+
+const backgroundPhotos = [
+  "room-bg.jpg",
+  "music-bg.jpg",
+  "black.png",
+];
+
 //Function to unblur the site
 function unblurSite() {
   document.body.style.filter = "blur(0)";
@@ -16,9 +36,10 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Function to change the background color
-function changeBackground() {
-  document.body.style.backgroundColor = "lightblue";
+function changeBackground(photoIndex(0, 2)) {
+  const chosenPhoto = backgroundPhotos[photoIndex];
+  const bg = document.querySelector(".lofi-background");
+  bg.style.backgroundImage = `url(${chosenPhoto})`;
 }
 
 function checkPassword() {
