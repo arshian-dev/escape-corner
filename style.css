@@ -18,6 +18,7 @@ body {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
   filter: blur(10px); /* Adjust blur intensity */
+  z-index: 40;
   opacity: 1; /* Start fully blurred */
   transition: opacity 1s ease-in-out; /* Smooth fade-out */
 }
@@ -29,6 +30,7 @@ body {
   transform: translate(-50%, -50%); /* Center horizontally and vertically */
   font-size: 3em; /* Adjust font size */
   color: white;
+  z-index: 41;
   opacity: 0; /* Initially hidden */
   transition: opacity 1s ease-in-out; /* Smooth fade-in/out */
 }
@@ -39,7 +41,7 @@ body {
   top: 0;
   left: 0;
   height: 100vh; /* Full viewport height */
-  width: 100px; /* Adjust width as needed */
+  width: 10vw; /* Adjust width as needed */
   background-color: rgba(0, 0, 0, 0.5); /* Change background color as desired */
   padding: 20px;
   overflow-y: auto; /* Enable scrolling if content overflows */
@@ -93,14 +95,6 @@ body {
   background-size: cover;
   background-position: center;
   z-index: -1;
-}
-
-.study-page .lofi-background {
-  background-image: url("study-background.jpg");
-}
-
-.music-page .lofi-background {
-  background-image: url("music-background.jpg");
 }
 
 h1, h2 {
