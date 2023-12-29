@@ -5,16 +5,22 @@ body {
   color: #fff; /* Light gray text */
 }
 
-
 .left-navbar {
   position: fixed; /* Fixed position to stay in place on scroll */
+  font-size: 0px;
   top: 0;
   left: 0;
   height: 100vh; /* Full viewport height */
-  width: 10vw; /* Adjust width as needed */
+  width: 2vw; /* Adjust width as needed */
   background-color: rgba(0, 0, 0, 0.5); /* Change background color as desired */
   padding: 20px;
-  overflow-y: auto; /* Enable scrolling if content overflows */
+  overflow-y: auto;
+  transition: width 0.5s ease-in-out;
+}
+
+.left-navbar:hover {
+  width: 10vw;
+  font-size: 100%;
 }
 
 .left-navbar ul {
@@ -25,13 +31,12 @@ body {
 .left-navbar li a {
   text-decoration: none;
   color: #fff;
-  padding: 10px, 3px;
+  padding: 10px;
   display: block;
   border: 1px solid #fff;
   border-radius: 5px; /* Add rounded corners */
   display: inline-block; /* Ensure button-like behavior */
   cursor: pointer; /* Indicate interactivity */
-  font-size: 100%;
   font-weight: bold;
 }
 
