@@ -19,7 +19,7 @@ header {
   justify-content: center;
 }
 
-.subjects li a {
+.subjects li button {
   margin: 0 10px;
   padding: 10px 20px;
   border: 1px solid #fff;
@@ -29,7 +29,7 @@ header {
   text-decoration: none;
 }
 
-.subjects li a:hover {
+.subjects li button:hover {
   background-color: #7744cc; /* Darker purple on hover */
 }
 
