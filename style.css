@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: "Space Grotesk",sans-serif;
   color: #fff; /* Light gray text */
+  overflow-x:hidden;
 }
 
 header {
