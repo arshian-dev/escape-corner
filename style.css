@@ -9,19 +9,19 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  justify-content: center;
 }
 
-.subjects li {
+
+.subjects li a {
   margin: 0 10px;
   padding: 10px 20px;
   border: 1px solid #fff;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.subjects li a {
   color: #fff;
   text-decoration: none;
+  
 }
 
 .subjects li a:hover {
