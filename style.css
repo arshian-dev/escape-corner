@@ -31,6 +31,9 @@ header {
 .sublinks li iframe {
   margin: 0 auto;
   background-color: #fff;
+  transition: display 0.5s ease-in-out;
+  width: 60%;
+  height: "352";
 }
 
 .subjects li button {
