@@ -22,12 +22,16 @@ header {
 .sublinks {
   display: flex;
   list-style: none;
+  flex-direction: column;
+  gap: 10px;
   padding: 0;
   justify-content: center;
 }
 
 .sublinks li {
   background-color: #fff;
+  height: 40vh
+  width: 40vw
 }
 
 .subjects li button {
