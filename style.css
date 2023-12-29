@@ -23,6 +23,12 @@ body {
   font-size: 100%;
 }
 
+.left-navbar img {
+  float:left;
+  width:30px;
+  height:30px;"
+}
+
 .left-navbar ul {
   list-style: none;
   padding: 0;
@@ -83,12 +89,6 @@ a:hover {
 section {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 30px;
-}
-
-img {
-  border-radius: 50%;
-  width: 200px;
-  margin: 10px auto;
 }
 
 footer {
