@@ -28,7 +28,8 @@ header {
   justify-content: center;
 }
 
-.sublinks li {
+.sublinks li iframe {
+  margin: 0 auto;
   background-color: #fff;
 }
 
