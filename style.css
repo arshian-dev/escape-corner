@@ -11,7 +11,7 @@ body {
   top: 0;
   left: 0;
   height: 100vh; /* Full viewport height */
-  width: 2vw; /* Adjust width as needed */
+  width: 3vw; /* Adjust width as needed */
   background-color: rgba(0, 0, 0, 0.5); /* Change background color as desired */
   padding: 20px;
   overflow-y: auto;
