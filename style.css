@@ -186,11 +186,6 @@ ul {
   margin-right: 10px;
 }
 
-.mail-post header span {
-  color: #999; /* Lighter gray for secondary info */
-  font-size: 0.8rem; /* Slightly smaller text */
-}
-
 /* Content styling */
 .mail-post .content {
   line-height: 1.6; /* Comfortable reading experience */
@@ -209,18 +204,3 @@ ul {
 .mail-container a {
   color: #4285f4; /* Blue link color */
 }
-
-.mail-post header h2 {
-  color: #007bff; /* Blue header color */
-}
-
-/* Subtle animations */
-.mail-post {
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease-in-out; /* Smooth fade-in */
-}
-
-.mail-post.loaded {
-  opacity: 1; /* Visible after loading */
-}
-
