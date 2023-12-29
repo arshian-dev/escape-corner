@@ -6,7 +6,9 @@ body {
 }
 
 header {
+  top:0;
   background-color: black;
+  padding: 20px;
 }
 
 .subjects {
@@ -25,7 +27,6 @@ header {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  
 }
 
 .subjects li a:hover {
