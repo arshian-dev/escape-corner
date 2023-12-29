@@ -19,6 +19,17 @@ header {
   justify-content: center;
 }
 
+.sublinks {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.sublinks li {
+  background-color: #fff;
+}
+
 .subjects li button {
   background-color: transparent;
   margin: 0 10px;
