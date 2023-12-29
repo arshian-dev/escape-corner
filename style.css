@@ -5,6 +5,10 @@ body {
   color: #fff; /* Light gray text */
 }
 
+header {
+  background-color: black;
+}
+
 .subjects {
   display: flex;
   list-style: none;
