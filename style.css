@@ -1,14 +1,16 @@
 body {
-  position: flex;
   text-align: center;
   font-family: "Space Grotesk",sans-serif;
   color: #fff; /* Light gray text */
 }
 
 header {
-  top:0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   background-color: black;
-  padding: 20px;
+  padding: 10px;
 }
 
 .subjects {
@@ -17,7 +19,6 @@ header {
   padding: 0;
   justify-content: center;
 }
-
 
 .subjects li a {
   margin: 0 10px;
