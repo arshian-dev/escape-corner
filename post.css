@@ -1,0 +1,62 @@
+body {
+  font-family: 'Roboto Slab', serif; /* Classic serif font */
+  color: #4e342e; /* Warm brown tones */
+  background-color: #f8f2ef; /* Pale cream background */
+  margin: 20px auto;
+  max-width: 600px; /* Responsive width */
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #3c251f; /* Deep brown for links */
+  text-decoration: none;
+  border-bottom: 1px dotted #3c251f;
+  padding-bottom: 2px;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #e07a57; /* Dark orange hover */
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #e07a57;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+blockquote {
+  border-left: 5px solid #e07a57;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+hr {
+  border-top: 1px dotted #3c251f;
+  margin: 20px 0;
+}
+
+.highlight {
+  background-color: #f5e9dc;
+  border-radius: 3px;
+}
