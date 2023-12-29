@@ -152,3 +152,75 @@ ul {
 .pixel-art {
   filter: contrast(1.2); /* Enhance pixel art sharpness */
 }
+
+/* General styling for the mail container */
+.mail-container {
+  margin: 0 auto;
+  background-color: #fff; /* Light, airy background */
+  border-radius: 10px; /* Soft corners */
+  padding: 40px; /* Generous spacing */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Open Sans', sans-serif; /* Readable font */
+  color: #333; /* Darker text for contrast */
+}
+
+/* Styling for individual mail posts */
+.mail-post {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee; /* Subtle separator lines */
+}
+
+.mail-post:last-child {
+  border-bottom: none; /* Remove line from last post */
+}
+
+/* Header styling */
+.mail-post header {
+  display: flex; /* Arrange elements horizontally */
+  align-items: center; /* Vertically align elements */
+  margin-bottom: 20px;
+}
+
+.mail-post header h2 {
+  font-weight: 300; /* Lighter header font weight */
+  margin-right: 10px;
+}
+
+.mail-post header span {
+  color: #999; /* Lighter gray for secondary info */
+  font-size: 0.8rem; /* Slightly smaller text */
+}
+
+/* Content styling */
+.mail-post .content {
+  line-height: 1.6; /* Comfortable reading experience */
+}
+
+/* Styling for the iframe */
+.mail-post iframe {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  border: none;
+  overflow-y: scroll; /* Allow scrolling for longer content */
+}
+
+/* Aesthetics and visual enhancements */
+/* Softer colors */
+.mail-container a {
+  color: #4285f4; /* Blue link color */
+}
+
+.mail-post header h2 {
+  color: #007bff; /* Blue header color */
+}
+
+/* Subtle animations */
+.mail-post {
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out; /* Smooth fade-in */
+}
+
+.mail-post.loaded {
+  opacity: 1; /* Visible after loading */
+}
+
