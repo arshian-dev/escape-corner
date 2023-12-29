@@ -5,6 +5,29 @@ body {
   color: #fff; /* Light gray text */
 }
 
+.subjects {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.subjects li {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subjects li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.subjects li a:hover {
+  background-color: #7744cc; /* Darker purple on hover */
+}
+
 .left-navbar {
   position: fixed; /* Fixed position to stay in place on scroll */
   font-size: 0px;
