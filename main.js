@@ -13,8 +13,7 @@ audio.volume = 0.5;
 audio.controls = false; // Optional: Add controls
 audio.loop = true; // Enable looping
 document.body.appendChild(audio);
-
-flag = false
+let flag = false;
 function changeBackground() {
   const bg = document.querySelector(".lofi-background");
   if (flag) {
