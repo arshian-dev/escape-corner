@@ -202,12 +202,11 @@ ul {
 .mail-container {
   margin: 0 auto;
   width:60vw;
-  background-color: rgba(0, 0, 0, 0.6); /* Light, airy background */
-  border-radius: 30px; /* Soft corners */
-  padding: 40px; /* Generous spacing */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  font-family: 'Open Sans', sans-serif; /* Readable font */
-}
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
 
 
 .mail-post {
