@@ -12,7 +12,7 @@ audio.src = 'rain.mp3';
 audio.volume = 0.5;
 audio.controls = false; // Optional: Add controls
 audio.loop = true; // Enable looping
-document.body.appendChild(audio);
+
 let flag = false;
 function changeBackground() {
   const bg = document.querySelector(".lofi-background");
@@ -20,6 +20,7 @@ function changeBackground() {
     audio.pause();
     bg.style.backgroundImage = "url(room-bg.jpg)"; // Use url() for paths
   } else {
+    document.body.appendChild(audio);
     audio.play();
     bg.style.backgroundImage = "url(study-bg.jpg)";
   }
