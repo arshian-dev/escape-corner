@@ -9,7 +9,7 @@ function toggleDropdown() {
 
 const audio = document.createElement('audio');
 audio.src = 'rain.mp3';
-audio.controls = true; // Optional: Add controls
+audio.controls = false; // Optional: Add controls
 audio.loop = true; // Enable looping
 
 flag = false
