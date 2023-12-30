@@ -7,9 +7,11 @@ I think about how it's not right for us to directly be in live contact so I deci
 
 I'll keep on working on this to make it look better and better. I'll also add more stuff that you like so you can always tell me fun things to add and I'll see if I don't ruin the whole thing in the process lol. It's not that fancy but its something ig. *(I stayed up so many nights)* But tbh I also learned alot while making this so it's a win-win situation.
 
-I won't bore you with romantic paragraphs this time. Consider this a gift from bsf Arshian and not the one that gets blocked *occasionally*. 
+I won't bore you with romantic paragraphs this time. Consider this a gift from best friend Arshian and not the one that gets blocked *occasionally*. 
+
+
 
 *I hope you come here often and have fun with this :>>*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjM1MTUzNF19
+eyJoaXN0b3J5IjpbLTIwOTk0NTEzNDNdfQ==
 -->
