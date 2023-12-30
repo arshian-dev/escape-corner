@@ -21,7 +21,7 @@ function changeBackground() {
   } else {
     document.body.appendChild(audio);
     audio.play();
-    audio.volume = 0.5;
+    audio.volume = 0.2;
     bg.style.backgroundImage = "url(study-bg.jpg)";
   }
   flag = !flag; // Toggle the flag
