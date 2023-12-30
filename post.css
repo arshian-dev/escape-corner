@@ -1,18 +1,19 @@
 body {
   font-family: 'Roboto Slab', serif; /* Classic serif font */
-  color: #4e342e; /* Warm brown tones */
-  background-color: #f8f2ef; /* Pale cream background */
+  color: #250902; /* Warm brown tones */
+  background-color: #a8763e;
   margin: 20px auto;
   max-width: 600px; /* Responsive width */
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 p {
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 15px;
 }
