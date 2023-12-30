@@ -12,6 +12,22 @@ header {
   padding: 10px;
 }
 
+.textbox {
+  border-radius: 5px; /* Soft corners */
+  padding: 20px; /* Generous spacing around text */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Open Sans', sans-serif; /* Readable font */
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.textbox p {
+  font-size: 16px; /* Comfortable text size */
+  line-height: 1.5; /* Optimal line spacing */
+  margin-bottom: 15px; /* Space between paragraphs */
+}
+
 .subjects {
   display: flex;
   list-style: none;
