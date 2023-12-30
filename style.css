@@ -12,6 +12,14 @@ header {
   padding: 10px;
 }
 
+.study {
+  margin: 0 auto;
+  width:80vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px;
+}
+
 .games {
   margin: 0 auto;
   width:60vw;
@@ -62,8 +70,8 @@ header {
   margin: 0 auto;
   background-color: #fff;
   transition: display 0.5s ease-in-out;
-  width: 60%;
-  height: "500";
+  width: 70%;
+  height: 35vh;
 }
 
 .subjects li button {
