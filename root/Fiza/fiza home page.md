@@ -5,7 +5,9 @@ This is something I've been working on for a long time to be honest. You probabl
 
 I think about how it's not right for us to directly be in live contact so I decided to do something that is not actually contact, but its a little bit of something I'm putting into this world that might make your bad days slightly better....*maybe*
 
-I'll keep on working on this to make it look better and better. 
+I'll keep on working on this to make it look better and better. I'll also add more stuff that you like so you can always tell me fun things to add and I'll see if I don't ruin the whole thing in the process lol.
+
+It's not that fancy but its something ig (I stayed up so many nights).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjI3NDgxMSwtMTEyNjgyODQ5NV19
+eyJoaXN0b3J5IjpbNjY3MTU2NDYwLC0xMTI2ODI4NDk1XX0=
 -->
