@@ -45,11 +45,18 @@ header {
 
 .textbox p {
   text-align: left;
-  font-size: 18px; /* Comfortable text size */
-  line-height: 1.5; /* Optimal line spacing */
-  margin-bottom: 15px; /* Space between paragraphs */
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
+.textbox li {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+  
 .subjects {
   display: flex;
   list-style: none;
