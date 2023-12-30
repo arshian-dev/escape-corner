@@ -13,16 +13,18 @@ header {
 }
 
 .textbox {
-  border-radius: 5px; /* Soft corners */
-  padding: 20px; /* Generous spacing around text */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  font-family: 'Open Sans', sans-serif; /* Readable font */
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
 .textbox p {
+  text-align: left;
   font-size: 18px; /* Comfortable text size */
   line-height: 1.5; /* Optimal line spacing */
   margin-bottom: 15px; /* Space between paragraphs */
