@@ -9,8 +9,7 @@ I'll keep on working on this to make it look better and better. I'll also add mo
 
 I won't bore you with romantic paragraphs this time. Consider this a gift from bsf Arshian and not the one that gets blocked *occasionally*. 
 
-I have fun with this :>>
+*I hope you come here often and have fun with this :>>*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgxNjQwNjgsLTExMjY4Mjg0OTVdfQ
-==
+eyJoaXN0b3J5IjpbLTI4MjM1MTUzNCwtMTEyNjgyODQ5NV19
 -->
