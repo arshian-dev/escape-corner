@@ -9,7 +9,6 @@ function toggleDropdown() {
 
 const audio = document.createElement('audio');
 audio.src = 'rain.mp3';
-audio.volume = 0.5;
 audio.controls = false; // Optional: Add controls
 audio.loop = true; // Enable looping
 
@@ -22,6 +21,7 @@ function changeBackground() {
   } else {
     document.body.appendChild(audio);
     audio.play();
+    audio.volume = 0.5;
     bg.style.backgroundImage = "url(study-bg.jpg)";
   }
   flag = !flag; // Toggle the flag
