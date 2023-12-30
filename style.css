@@ -12,6 +12,18 @@ header {
   padding: 10px;
 }
 
+.games {
+  margin: 0 auto;
+  width:60vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.games h3 {
+  margin: 20px;
+}
+
 .textbox {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 30px;
