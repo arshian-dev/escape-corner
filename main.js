@@ -16,10 +16,10 @@ flag = false
 function changeBackground() {
   const bg = document.querySelector(".lofi-background");
   if (flag) {
-    document.body.appendChild(audio);
     audio.play();
     bg.style.backgroundImage = "url(room-bg.jpg)"; // Use url() for paths
   } else {
+    document.body.appendChild(audio);
     audio.pause();
     bg.style.backgroundImage = "url(study-bg.jpg)";
   }
