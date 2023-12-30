@@ -1,5 +1,5 @@
 function greetUser() {
-  alert("Welcome to Fiza's Escape Corner! If you're Fiza then you're the developer's favorite thing in the world, this space is for you. Have fun! And if not Fiza, leave immediately!");
+  alert("Welcome to Fiza's Escape Corner! If you're Fiza then you're the developer's favorite person in the world, this space is for you. Have fun! And if you're not Fiza, leave immediately please!");
 }
 
 // Function to toggle a dropdown menu
@@ -9,6 +9,7 @@ function toggleDropdown() {
 
 const audio = document.createElement('audio');
 audio.src = 'rain.mp3';
+audio.volume = 0.5;
 audio.controls = false; // Optional: Add controls
 audio.loop = true; // Enable looping
 
