@@ -7,12 +7,20 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
+const audio = document.createElement('audio');
+audio.src = 'rain.mp3';
+audio.controls = true; // Optional: Add controls
+audio.loop = true; // Enable looping
+
 flag = false
 function changeBackground() {
   const bg = document.querySelector(".lofi-background");
   if (flag) {
+    document.body.appendChild(audio);
+    audio.play();
     bg.style.backgroundImage = "url(room-bg.jpg)"; // Use url() for paths
   } else {
+    audio.pause();
     bg.style.backgroundImage = "url(study-bg.jpg)";
   }
   flag = !flag; // Toggle the flag
