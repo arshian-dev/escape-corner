@@ -1,5 +1,5 @@
 function greetUser() {
-  alert("Welcome to Fiza's Escape Corner! If you're Fiza then you're the developer's favorite person in the world, this space is for you. Have fun! And if you're not Fiza, leave immediately please!");
+  alert("This is just something I made to have fun");
 }
 
 // Function to toggle a dropdown menu
